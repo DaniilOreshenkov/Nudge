@@ -17,6 +17,6 @@ jobs:
         run: |
           xcodebuild \
             -scheme "Nudge" \
-            -destination "platform=iOS Simulator" \
+            -destination "generic/platform=iOS Simulator" \
             build
 
