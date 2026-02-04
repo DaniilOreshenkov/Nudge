@@ -1,3 +1,6 @@
+# macOS
+.DS_Store
+
 # Xcode
 DerivedData/
 *.xcuserdata
@@ -5,25 +8,22 @@ DerivedData/
 *.xcuserstate
 *.xcscmblueprint
 
-# Build
+# Build products
 build/
 *.ipa
 *.dSYM
 *.dSYM.zip
 
 # Swift Package Manager
-.swiftpm/
 .build/
+.swiftpm/
 
 # CocoaPods
 Pods/
-Podfile.lock
 
 # Fastlane
 fastlane/report.xml
 fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
+fastlane/screenshots/
+fastlane/test_output/
 
-# macOS
-.DS_Store
