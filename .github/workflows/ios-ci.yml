@@ -1,0 +1,19 @@
+name: iOS CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build app
+        run: |
+          xcodebuild \
+            -scheme "ИМЯ_ТВОЕЙ_СХЕМЫ" \
+            -destination "platform=iOS Simulator,name=iPhone 15" \
+            build
+
