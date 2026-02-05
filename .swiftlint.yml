@@ -3,7 +3,7 @@ disabled_rules:
   - line_length
 
 opt_in_rules:
-  - force_unwrap
+  - implicitly_unwrapped_optional
 
 excluded:
   - Pods

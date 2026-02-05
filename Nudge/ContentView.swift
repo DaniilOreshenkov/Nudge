@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let test: String! = "boom"
+    let tesd: String! = "boom"
     
     var body: some View {
         VStack {
