@@ -1,24 +1,10 @@
-//
-//  ContentView.swift
-//  Nudge
-//
-//  Created by Danya on 04.02.2026.
-//
-
 import SwiftUI
+import FeatureBirthdays
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+    let birthdaysFeature: FeatureBirthdaysProviding
 
-#Preview {
-    ContentView()
+    var body: some View {
+        birthdaysFeature.makeScreen()
+    }
 }
