@@ -6,7 +6,10 @@ struct NudgeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView(birthdaysFeature: composition.birthdaysFeature)
+            ContentView(
+                birthdaysFeature: composition.birthdaysFeature,
+                notificationsKit: composition.notificationsKit
+            )
         }
     }
 }

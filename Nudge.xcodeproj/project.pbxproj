@@ -10,6 +10,7 @@
 		039ACAF32F3453530055DB37 /* CoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = 039ACAF22F3453530055DB37 /* CoreKit */; };
 		039ACAF62F34536C0055DB37 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 039ACAF52F34536C0055DB37 /* DesignSystem */; };
 		039ACAF92F3453820055DB37 /* FeatureBirthdays in Frameworks */ = {isa = PBXBuildFile; productRef = 039ACAF82F3453820055DB37 /* FeatureBirthdays */; };
+		039ACD4C2F3593D30055DB37 /* NotificationsKit in Frameworks */ = {isa = PBXBuildFile; productRef = 039ACD4B2F3593D30055DB37 /* NotificationsKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			files = (
 				039ACAF32F3453530055DB37 /* CoreKit in Frameworks */,
 				039ACAF92F3453820055DB37 /* FeatureBirthdays in Frameworks */,
+				039ACD4C2F3593D30055DB37 /* NotificationsKit in Frameworks */,
 				039ACAF62F34536C0055DB37 /* DesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +80,7 @@
 				039ACAF22F3453530055DB37 /* CoreKit */,
 				039ACAF52F34536C0055DB37 /* DesignSystem */,
 				039ACAF82F3453820055DB37 /* FeatureBirthdays */,
+				039ACD4B2F3593D30055DB37 /* NotificationsKit */,
 			);
 			productName = Nudge;
 			productReference = 039ACABD2F33858C0055DB37 /* Nudge.app */;
@@ -111,6 +114,7 @@
 				039ACAF12F3453530055DB37 /* XCLocalSwiftPackageReference "Packages/Core/CoreKit" */,
 				039ACAF42F34536C0055DB37 /* XCLocalSwiftPackageReference "Packages/DesignSystem/DesignSystem" */,
 				039ACAF72F3453820055DB37 /* XCLocalSwiftPackageReference "Packages/Features/FeatureBirthdays" */,
+				039ACD4A2F3593D30055DB37 /* XCLocalSwiftPackageReference "Packages/NotificationsKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 039ACABE2F33858C0055DB37 /* Products */;
@@ -392,6 +396,10 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/Features/FeatureBirthdays;
 		};
+		039ACD4A2F3593D30055DB37 /* XCLocalSwiftPackageReference "Packages/NotificationsKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/NotificationsKit;
+		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -406,6 +414,10 @@
 		039ACAF82F3453820055DB37 /* FeatureBirthdays */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FeatureBirthdays;
+		};
+		039ACD4B2F3593D30055DB37 /* NotificationsKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NotificationsKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
