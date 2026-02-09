@@ -13,8 +13,8 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(path: "../Core/CoreKit"),
-        .package(path: "../DesignSystem/DesignSystem")
+        .package(path: "../../Core/CoreKit"),
+        .package(path: "../../DesignSystem/DesignSystem")
     ],
     targets: [
         .target(
